@@ -1,3 +1,14 @@
+div,input,textarea {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+html{
+    line-height: 1.15;
+}
 .main-background {
     background-image : url(../img/shoes.jpg);
     background-size : cover;
@@ -79,14 +90,71 @@
     border-radius: 5px;
     background: white;
     font-size: 18px;
+    z-index: 5;
 }
 
 .main-button2{
-    width: 500px;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding: 10px;
     background-color: aliceblue;
     position: relative;
-    bottom: -100px;
+    bottom: -50px;
+    max-width: 600px;
+    min-width: 400px;
+    box-sizing: border-box;
+
+}
+
+.form-input{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-background{
+ background-color: black;
+ padding: 30px;
+
+}
+
+.form-white{
+background-color: antiquewhite;
+padding: 25px;
+width: 80%;
+max-width: 600px;
+margin: auto;
+
+}
+
+.w-50{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.w-100{
+padding: 10px;
+width: 100%;
+
+}
+
+.yellow-button{
+    background-color: yellow;
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-color: brown;
+}
+
+.sub{ 
+    right: 100px;
+
 }
