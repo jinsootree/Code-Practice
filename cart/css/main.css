@@ -5,6 +5,15 @@ body {
     /*폰트 굵기*/
     font-weight: 800;
 }
+td , th {
+    border: 1px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    vertical-align: middle;
+  }
+
 
 /*post slider*/
 .post-slider {
@@ -78,4 +87,30 @@ body {
 h2 {
     transform: rotate(0.04deg);
 
+}
+
+.cart-table {
+
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border: 1px solid #c2d3de;
+}
+
+.cell-long{
+    width: 700px;
+}
+
+.cart-table th:nth-child(2){
+    width: 400px;
 }
