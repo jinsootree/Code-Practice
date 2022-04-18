@@ -114,3 +114,75 @@ td, th{
 .cart-table th:nth-child(2){
     width: 400px;
 }
+
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer;
+    background-color: coral;
+}
+/* 프세도 클래스 : 마우스 위, 클릭, 클릭하고 난 뒤*/
+.btn:hover {
+    background-color: blue;
+
+}
+
+.btn:focus{
+    background-color: gray;
+}
+
+.btn:active{
+    background-color: brown;
+    border: 2px solid black;
+
+}
+.input-test{
+    font-size: 20px;
+}
+.input-test:focus{
+    border: 2px solid black;
+}
+
+.custom-link{
+    text-decoration: none;
+
+}
+.custom-link:link{
+    color:cadetblue;
+}
+
+.custom-link:visited{
+    color:black;
+}
+/* 코드양 줄이기-oocss */
+.main-btn {
+    font-size : 20px;
+    padding : 15px;
+    border : none;
+    cursor : pointer;
+  }
+  
+  .bg-red {
+    background : red;
+  }
+  .bg-blue {
+    background : blue;
+  }
+
+  .font-small {
+    font-size : 12px;
+  }
+  .font-medium {
+    font-size : 16px;
+  }
+  .font-lg {
+    font-size : 20px;
+  }
+
+  /* bem */
+
+
+  
