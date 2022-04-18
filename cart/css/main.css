@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    /*폰트 적용*/
+    font-family: 'gulim';
+    /*폰트 굵기*/
+    font-weight: 800;
+}
+td , th {
+    border: 1px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    vertical-align: middle;
+  }
+
+
+/*post slider*/
+.post-slider {
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.post-slider .silder-title {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.post-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: gray;
+    cursor: pointer;
+}
+
+.post-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: gray;
+    cursor: pointer;
+}
+
+.post-slider .post-wrapper {
+
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post {
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+}
+
+.post-slider .post-wrapper .post .post-info {
+    font-size: 15px;
+    height: 30%;
+    padding-left: 10px;
+}
+
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 175px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*폰트 임포트*/
+@font-face {
+    font-family: '이쁜 폰트';
+    font-weight: 400;
+    src: url(../font/NanumSquareL.woff)
+}
+
+/*안티엘리어싱 폰트*/
+h2 {
+    transform: rotate(0.04deg);
+
+}
+
+.cart-table {
+
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border: 1px solid #c2d3de;
+}
+
+.cell-long{
+    width: 700px;
+}
+
+.cart-table th:nth-child(2){
+    width: 400px;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer;
+    background-color: coral;
+}
+/* 프세도 클래스 : 마우스 위, 클릭, 클릭하고 난 뒤*/
+.btn:hover {
+    background-color: blue;
+
+}
+
+.btn:focus{
+    background-color: gray;
+}
+
+.btn:active{
+    background-color: brown;
+    border: 2px solid black;
+
+}
+.input-test{
+    font-size: 20px;
+}
+.input-test:focus{
+    border: 2px solid black;
+}
+
+.custom-link{
+    text-decoration: none;
+
+}
+.custom-link:link{
+    color:cadetblue;
+}
+
+.custom-link:visited{
+    color:black;
+}
+/* 코드양 줄이기-oocss */
+.main-btn {
+    font-size : 20px;
+    padding : 15px;
+    border : none;
+    cursor : pointer;
+  }
+  
+  .bg-red {
+    background : red;
+  }
+  .bg-blue {
+    background : blue;
+  }
+
+  .font-small {
+    font-size : 12px;
+  }
+  .font-medium {
+    font-size : 16px;
+  }
+  .font-lg {
+    font-size : 20px;
+  }
+
+  /* bem */
+
+
+  
